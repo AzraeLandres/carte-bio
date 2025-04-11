@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
 
+@theme {
+  --color-yellow: #fecf2e;
+}
+
 @layer base {
   *,
   *::before,

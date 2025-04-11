@@ -1,12 +1,10 @@
-import "./App.css";
+import Home from "./components/pages/Home";
 
 function App() {
   return (
-    <>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="h-screen w-screen">
+      <Home />
+    </div>
   );
 }
 
